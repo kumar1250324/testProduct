@@ -488,11 +488,7 @@ class MenuBar extends React.Component {
                             onMouseUp={this.props.onClickEdit}
                         >
                             <div className={classNames(styles.editMenu)}>
-                                <FormattedMessage
-                                    defaultMessage="Edit"
-                                    description="Text for edit dropdown menu"
-                                    id="gui.menuBar.edit"
-                                />
+                                <div>Tested</div>
                             </div>
                             <MenuBarMenu
                                 className={classNames(styles.menuBarMenu)}
